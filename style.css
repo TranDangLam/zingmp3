@@ -1,83 +1,23 @@
-.weekly-items {
-  display: flex;
+body{
   font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  border-bottom: 1px solid #AAA;
-  padding: 14px 0;
-}
-
-.weekly-items .number {
-  padding:0 12px;
-  font-size: 18px;
-}
-
-.weekly-items .song-info {
-  flex-grow: 1;
-}
-
-.weekly-items .singer {
-  color: #999;
   font-size: 14px;
 }
-
-.weekly-items .song-name {
-  font-size: 18px;
-}
-
-.weekly-items .view-count {
-  font-size: 16px;
-  color: #999;
-}
-
-.weekly-album {
-  display: flex;
-}
-
-.weekly-album .album {
-  width: 110px;
-  height: 110px;
-  background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/f/6/2/8/f628b6183aa6f39204d99afe9287de51.jpg');
-  background-size: cover;
-}
-
-.weekly-album .info {
-  padding: 0 12px;
-  display: block;
-  flex-grow: 1;
-}
-
-.weekly-album .cover {
-  height: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  display: flex;
-  align-items: flex-end;
+header{
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #1C1C1C;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 8px;
-  box-sizing: border-box;
 }
 
-.album {
-  width: 110px;
-  height: 110px;
-  background-image: url('https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/f/6/2/8/f628b6183aa6f39204d99afe9287de51.jpg');
-  background-size: cover;
-}
-.album .overlay {
-  font-size: 40px;
-  height: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0.1) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer{
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  background-color: #222428;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 8px;
-  box-sizing: border-box;
-  opacity: 0;
 }
-.album:hover .overlay{
-  opacity: 1;
+.wrapmain{
+  width: 60%;
+  margin:0 20%;
 }
