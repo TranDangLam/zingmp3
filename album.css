@@ -1,0 +1,31 @@
+.album-item a{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  justify-content: center;
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240h240_jpeg/cover/f/f/2/e/ff2e925760b72622999b32d9b7abf323.jpg");
+  /* background-repeat: no-repeat ; */
+  background-position: cover;
+  background-size: cover;
+  align-items: center;
+}
+
+.album-item{
+  margin-right: 20px;
+}
+.album-list{
+  display: flex;
+  flex-direction: row;
+}
+.album-item a>i{
+  color:white;
+  scale: 0.5;
+  opacity: 0;
+}
+
+.album-item a>i:hover{
+  transform: scale(1);
+  transition: 0.5s;
+  opacity: 1;
+}
