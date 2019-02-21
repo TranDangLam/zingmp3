@@ -1,0 +1,23 @@
+.video a{
+  width: 180px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://photo-resize-zmp3.zadn.vn/w240h135_jpeg/thumb_video/7/0/7/9/707992df71f2af521cbddfb2188054ae.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hot-videos{
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 30% 30% 30%;
+  margin: auto;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  display: inline;
+}
